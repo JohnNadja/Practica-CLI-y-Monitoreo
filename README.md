@@ -5,7 +5,7 @@
 ### [Introducción](#introducción)
 ### [Requisitos](#requisitos)
 
-### [Práctica Azure CLI](#practica-azure-cli)
+### [Práctica Azure CLI](#practica-azure-cli) ![climini](/images/climini.svg)
 ### [Práctica Azure Service Health](#práctica-azure-service-health) ![healthmini](/images/healthmini.svg)
 ### [Práctica Azure Monitor](#práctica-azure-monitor) ![monitormini](/images/monitormini.svg)
 ### [Práctica Azure Resource Manager](#práctica-azure-resource-manager) ![armmini](/images/armmini.svg)
@@ -13,7 +13,7 @@
 ### Introducción
 
 #### Azure CLI
-![Azure CLI](/images/azure-cli.png)
+![Azure CLI](/images/Azure-CLI.png)
 
 Azure CLI (*Command Line Interface*) es un programa que permite tener una forma de manipular y administrar a través de una línea de comandos los recursos del entorno de Azure. Éste se puede instalar instalar en Windows, Linux, Mac, o ejecutarlo en contenedores [Docker](https://www.docker.com/); pero no en una Chromebook. Para instalarlo, se puede usar el siguiente [enlace](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) (dependiendo del tipo de Sistema Operativo en el que se tenga) y se siguen los pasos del instalado.
 
@@ -50,12 +50,12 @@ ARM es un servicio que permite volver a implementar recursos o grupo de recursos
 
 
 ----
-### Práctica Azure CLI ![CLImini]()
+### Práctica Azure CLI ![climini](/images/climini.svg)
 1. Como primera instancia, se debe abrir el programa **CMD** o **PowerShell** y ejecutar el siguiente comando (para poder iniciar sesión en Azure): `az login`
     - Una vez ejecutado, se debe verificar que se haya iniciado sesión correctamente. Esto se hace cuando se muestra una ventana de inicio de sesión en el portal de Azure con un mensaje de confirmación.
-    ![resNavegador]()
+    ![resNavegador](/images/resNavegador.png)
     - En la línea de comandos, se mostrará que todo ha ido bien (a veces se requiere presionar la tecla *Intro* o *Enter* para que se muestre correctamente):
-    ![resCMD]()
+    ![resCMD](/images/resCMD.png)
     - Si se quiere saber la lista de comandos de Azure, se puede ejecutar el siguiente comando:`az`
 
 2. Para crear una nueva práctica (en realidad, un grupo de recursos), se debe ejecutar el siguiente comando:
@@ -127,7 +127,7 @@ ARM es un servicio que permite volver a implementar recursos o grupo de recursos
         | Descripción | (Opcional) Asignar una descripción a la regla de alertas.|
         | Grupo de recursos | Seleccionar el grupo de recursos en la que se está realizando la práctica|
     - Aceptamos los cambios con **Crear regla de alertas**.
-    ![reglaAlertas1](/images/reglaAlertas.gif)
+    ![reglaAlertas1](/images/reglaAlertas1.gif)
 
 
 ##### Ahora contamos con una regla de alertas de Service Health en Azure.
@@ -173,7 +173,7 @@ Podemos optar para crear una con el siguiente [enlace](https://github.com/JohnNa
             |Resolver alertas automáticamente | Marcamos la casilla.|
         
         - Aceptamos la configuración con **Crear**.
-        ![alertamonitor](/images/alertamonitor.gif)
+        ![alertamonitor](/images/alertaMonitor.gif)
 
 3. Para ver las métricas, ingresamos a la VM
     -  Debería llegar un correo de aviso por el porcentaje de CPU de límita para notificar que se está usando más de lo "establecido".
@@ -208,7 +208,7 @@ Podemos optar para crear una con el siguiente [enlace](https://github.com/JohnNa
         | Descripción | Es la descripción de la regla de alerta.|
 
         - Creamos la alerta
-        ![alertaAdvisor](/images/alertaadvisor.gif)
+        ![alertaAdvisor](/images/alertaAdvisor.gif)
         
         
 
