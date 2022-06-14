@@ -66,7 +66,7 @@ ARM es un servicio que permite volver a implementar recursos o grupo de recursos
     - Group create crea un grupo de recursos en Azure.
     - Location westus indica que se creará en la ubicación central de EU en Azure.
     - Resource group practicaCLI indica el nombre del grupo de recursos que se creará.
-        - Esperarmos a que se cree el recurso.
+        - Esperamos a que se cree el recurso.
     ![GroupCreate](/images/GroupCreate.gif)
 
 3. Para corroborar que se ha creado correctamente, se debe revisar la plataforma del [Portal de Azure](https://portal.azure.com/#home) y verificar que el grupo de recursos se ha creado correctamente en la sección de **Grupos de Recursos**.
