@@ -92,7 +92,7 @@ ARM es un servicio que permite volver a implementar recursos o grupo de recursos
         Suscripción|Seleccionar la suscripción activa que se desea utilizar|
         Servicio|Seleccionar el servicio que se desea tener notificación. Ejemplo: **App Service**|
         | Regiones | Seleccionar la region que se desea tener notificación (puede ser *Global*)|
-        | Tipo de evento | Es el tipo de error que se notificacrá.|
+        | Tipo de evento | Es el tipo de error que se notificará.|
         
     ![addAlerta](/images/addAlerta.gif)
 
